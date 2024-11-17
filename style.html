@@ -1,38 +1,56 @@
-/* Reset some default styles */
+/* Reset styles */
 body, h1, p {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
 }
 
-/* Styling the body */
+/* Body styles */
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    background-color: #f9f9f9;
     color: #333;
 }
 
 /* Container styling */
 .container {
     text-align: center;
-    background: white;
+    max-width: 600px;
+    background: #fff;
     padding: 2rem;
     border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo styling */
+.logo {
+    max-width: 150px;
+    margin-bottom: 1.5rem;
+}
+
+/* Placeholder for the maintenance image */
+.maintenance-image {
+    background-image: url('https://img.freepik.com/free-vector/illustration-characters-fixing-cogwheel_53876-40796.jpg?t=st=1731827384~exp=1731830984~hmac=3b5059b1b0825f8d5bd9da6ce1dfcbdcfd78b6b7a7b2fb240572ddeb4624b271&w=1060'); /* Replace with your hosted toolbox image or remove */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    margin-bottom: 1.5rem;
 }
 
 /* Heading styling */
 h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: #d9534f;
     margin-bottom: 1rem;
 }
 
 /* Paragraph styling */
 p {
-    font-size: 1.2rem;
-    line-height: 1.6;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
 }
